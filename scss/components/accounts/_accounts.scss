@@ -1,0 +1,30 @@
+@use "../../abstract/variables.scss";
+
+.accounts{
+    position: absolute;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    &Account{
+        background: darkred;
+        border-radius: 1rem;
+        height: 40rem;
+
+        &__div{
+            background: grey;
+            height: 10rem;
+            position: relative;
+
+            &Image{
+                position: absolute;
+                transform: translate(30%, 40%);
+                width: 10rem;
+                height: 10rem;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+        }
+    }
+}

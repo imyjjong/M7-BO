@@ -1,0 +1,49 @@
+@use "../../abstract/variables.scss";
+
+.servers{
+    background: map-get(variables.$chatboxVars, "background");
+    border-right: 0.1rem solid darken(map-get(variables.$mainVars, "color"), 80%);
+    height: 100vh;
+    width: 7.5rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+
+    &Logo{
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: darken(map-get(variables.$mainVars, "color"), 90%);
+        border-radius: 50%;
+        width: 3rem;
+        height: 3rem;
+        padding: 2.8rem;
+    }
+
+    &Border{
+        border: 0.1rem solid darken(map-get(variables.$mainVars, "color"), 80%);
+        width: 5rem;
+    }
+
+    &Server{
+        width: 5.5rem;
+        height: 5.5rem;
+        object-fit: cover;
+        border-radius: 50%;
+
+        &:hover{
+            cursor: pointer;
+        }
+
+        &__focus{
+            width: 5.5rem;
+            height: 5.5rem;
+            object-fit: cover;
+            border-radius: 35%;
+        }
+    }
+}

@@ -1,0 +1,692 @@
+{
+    "accounts": [
+        {
+            "username": "scissorluv",
+            "name": "Jade West",
+            "bio": "no",
+            "text": "scissors",
+            "img": "img/jade.jpg",
+            "color": "#B784B7",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gotbeck",
+            "name": "Beck Oliver",
+            "bio": "cars",
+            "text": "vroom",
+            "img": "img/westbeck.jpg",
+            "color": "#2D9596",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "happycat",
+            "name": "Cat Valentine",
+            "bio": "yay",
+            "text": "yuh",
+            "img": "img/ariliz.jpg",
+            "color": "pink",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "ToriVega",
+            "name": "Tori Vega",
+            "bio": "shine",
+            "text": "make it shine",
+            "img": "img/vic.jpg",
+            "color": "lightblue",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gigi",
+            "name": "Gigi Rock",
+            "bio": "rock",
+            "text": "rock and roll",
+            "img": "img/gigirock.jpg",
+            "color": "#944E63",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "avan",
+            "name": "Avan Jogia",
+            "bio": "hoho",
+            "text": "driving car",
+            "img": "img/avan.jpg",
+            "color": "#40A2E3",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "Beck",
+            "name": "Oliver",
+            "bio": "yes",
+            "text": "ugh im tired",
+            "img": "img/beck.jpg",
+            "color": "#910A67",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "scissorluv",
+            "name": "Jade West",
+            "bio": "no",
+            "text": "scissors",
+            "img": "img/jade.jpg",
+            "color": "#B784B7",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gotbeck",
+            "name": "Beck Oliver",
+            "bio": "cars",
+            "text": "vroom",
+            "img": "img/westbeck.jpg",
+            "color": "#2D9596",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "happycat",
+            "name": "Cat Valentine",
+            "bio": "yay",
+            "text": "yuh",
+            "img": "img/ariliz.jpg",
+            "color": "pink",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "ToriVega",
+            "name": "Tori Vega",
+            "bio": "shine",
+            "text": "make it shine",
+            "img": "img/vic.jpg",
+            "color": "lightblue",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gigi",
+            "name": "Gigi Rock",
+            "bio": "rock",
+            "text": "rock and roll",
+            "img": "img/gigirock.jpg",
+            "color": "#944E63",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "avan",
+            "name": "Avan Jogia",
+            "bio": "hoho",
+            "text": "driving car",
+            "img": "img/avan.jpg",
+            "color": "#40A2E3",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "scissorluv",
+            "name": "Jade West",
+            "bio": "no",
+            "text": "scissors",
+            "img": "img/jade.jpg",
+            "color": "#B784B7",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gotbeck",
+            "name": "Beck Oliver",
+            "bio": "cars",
+            "text": "vroom",
+            "img": "img/westbeck.jpg",
+            "color": "#2D9596",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "happycat",
+            "name": "Cat Valentine",
+            "bio": "yay",
+            "text": "yuh",
+            "img": "img/ariliz.jpg",
+            "color": "pink",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "ToriVega",
+            "name": "Tori Vega",
+            "bio": "shine",
+            "text": "make it shine",
+            "img": "img/vic.jpg",
+            "color": "lightblue",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gigi",
+            "name": "Gigi Rock",
+            "bio": "rock",
+            "text": "rock and roll",
+            "img": "img/gigirock.jpg",
+            "color": "#944E63",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "avan",
+            "name": "Avan Jogia",
+            "bio": "hoho",
+            "text": "driving car",
+            "img": "img/avan.jpg",
+            "color": "#40A2E3",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "Beck",
+            "name": "Oliver",
+            "bio": "yes",
+            "text": "ugh im tired",
+            "img": "img/beck.jpg",
+            "color": "#910A67",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "scissorluv",
+            "name": "Jade West",
+            "bio": "no",
+            "text": "scissors",
+            "img": "img/jade.jpg",
+            "color": "#B784B7",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gotbeck",
+            "name": "Beck Oliver",
+            "bio": "cars",
+            "text": "vroom",
+            "img": "img/westbeck.jpg",
+            "color": "#2D9596",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "happycat",
+            "name": "Cat Valentine",
+            "bio": "yay",
+            "text": "yuh",
+            "img": "img/ariliz.jpg",
+            "color": "pink",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "ToriVega",
+            "name": "Tori Vega",
+            "bio": "shine",
+            "text": "make it shine",
+            "img": "img/vic.jpg",
+            "color": "lightblue",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gigi",
+            "name": "Gigi Rock",
+            "bio": "rock",
+            "text": "rock and roll",
+            "img": "img/gigirock.jpg",
+            "color": "#944E63",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "avan",
+            "name": "Avan Jogia",
+            "bio": "hoho",
+            "text": "driving car",
+            "img": "img/avan.jpg",
+            "color": "#40A2E3",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "Beck",
+            "name": "Oliver",
+            "bio": "yes",
+            "text": "ugh im tired",
+            "img": "img/beck.jpg",
+            "color": "#910A67",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "scissorluv",
+            "name": "Jade West",
+            "bio": "no",
+            "text": "scissors",
+            "img": "img/jade.jpg",
+            "color": "#B784B7",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gotbeck",
+            "name": "Beck Oliver",
+            "bio": "cars",
+            "text": "vroom",
+            "img": "img/westbeck.jpg",
+            "color": "#2D9596",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "happycat",
+            "name": "Cat Valentine",
+            "bio": "yay",
+            "text": "yuh",
+            "img": "img/ariliz.jpg",
+            "color": "pink",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "ToriVega",
+            "name": "Tori Vega",
+            "bio": "shine",
+            "text": "make it shine",
+            "img": "img/vic.jpg",
+            "color": "lightblue",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gigi",
+            "name": "Gigi Rock",
+            "bio": "rock",
+            "text": "rock and roll",
+            "img": "img/gigirock.jpg",
+            "color": "#944E63",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "avan",
+            "name": "Avan Jogia",
+            "bio": "hoho",
+            "text": "driving car",
+            "img": "img/avan.jpg",
+            "color": "#40A2E3",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "Beck",
+            "name": "Oliver",
+            "bio": "yes",
+            "text": "ugh im tired",
+            "img": "img/beck.jpg",
+            "color": "#910A67",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "scissorluv",
+            "name": "Jade West",
+            "bio": "no",
+            "text": "scissors",
+            "img": "img/jade.jpg",
+            "color": "#B784B7",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gotbeck",
+            "name": "Beck Oliver",
+            "bio": "cars",
+            "text": "vroom",
+            "img": "img/westbeck.jpg",
+            "color": "#2D9596",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "happycat",
+            "name": "Cat Valentine",
+            "bio": "yay",
+            "text": "yuh",
+            "img": "img/ariliz.jpg",
+            "color": "pink",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "ToriVega",
+            "name": "Tori Vega",
+            "bio": "shine",
+            "text": "make it shine",
+            "img": "img/vic.jpg",
+            "color": "lightblue",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gigi",
+            "name": "Gigi Rock",
+            "bio": "rock",
+            "text": "rock and roll",
+            "img": "img/gigirock.jpg",
+            "color": "#944E63",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "avan",
+            "name": "Avan Jogia",
+            "bio": "hoho",
+            "text": "driving car",
+            "img": "img/avan.jpg",
+            "color": "#40A2E3",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "avan",
+            "name": "Avan Jogia",
+            "bio": "hoho",
+            "text": "driving car",
+            "img": "img/avan.jpg",
+            "color": "#40A2E3",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "Beck",
+            "name": "Oliver",
+            "bio": "yes",
+            "text": "ugh im tired",
+            "img": "img/beck.jpg",
+            "color": "#910A67",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "scissorluv",
+            "name": "Jade West",
+            "bio": "no",
+            "text": "scissors",
+            "img": "img/jade.jpg",
+            "color": "#B784B7",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gotbeck",
+            "name": "Beck Oliver",
+            "bio": "cars",
+            "text": "vroom",
+            "img": "img/westbeck.jpg",
+            "color": "#2D9596",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "happycat",
+            "name": "Cat Valentine",
+            "bio": "yay",
+            "text": "yuh",
+            "img": "img/ariliz.jpg",
+            "color": "pink",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "ToriVega",
+            "name": "Tori Vega",
+            "bio": "shine",
+            "text": "make it shine",
+            "img": "img/vic.jpg",
+            "color": "lightblue",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gigi",
+            "name": "Gigi Rock",
+            "bio": "rock",
+            "text": "rock and roll",
+            "img": "img/gigirock.jpg",
+            "color": "#944E63",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "avan",
+            "name": "Avan Jogia",
+            "bio": "hoho",
+            "text": "driving car",
+            "img": "img/avan.jpg",
+            "color": "#40A2E3",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "scissorluv",
+            "name": "Jade West",
+            "bio": "no",
+            "text": "scissors",
+            "img": "img/jade.jpg",
+            "color": "#B784B7",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gotbeck",
+            "name": "Beck Oliver",
+            "bio": "cars",
+            "text": "vroom",
+            "img": "img/westbeck.jpg",
+            "color": "#2D9596",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "happycat",
+            "name": "Cat Valentine",
+            "bio": "yay",
+            "text": "yuh",
+            "img": "img/ariliz.jpg",
+            "color": "pink",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "ToriVega",
+            "name": "Tori Vega",
+            "bio": "shine",
+            "text": "make it shine",
+            "img": "img/vic.jpg",
+            "color": "lightblue",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gigi",
+            "name": "Gigi Rock",
+            "bio": "rock",
+            "text": "rock and roll",
+            "img": "img/gigirock.jpg",
+            "color": "#944E63",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "avan",
+            "name": "Avan Jogia",
+            "bio": "hoho",
+            "text": "driving car",
+            "img": "img/avan.jpg",
+            "color": "#40A2E3",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "Beck",
+            "name": "Oliver",
+            "bio": "yes",
+            "text": "ugh im tired",
+            "img": "img/beck.jpg",
+            "color": "#910A67",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "scissorluv",
+            "name": "Jade West",
+            "bio": "no",
+            "text": "scissors",
+            "img": "img/jade.jpg",
+            "color": "#B784B7",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gotbeck",
+            "name": "Beck Oliver",
+            "bio": "cars",
+            "text": "vroom",
+            "img": "img/westbeck.jpg",
+            "color": "#2D9596",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "happycat",
+            "name": "Cat Valentine",
+            "bio": "yay",
+            "text": "yuh",
+            "img": "img/ariliz.jpg",
+            "color": "pink",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "ToriVega",
+            "name": "Tori Vega",
+            "bio": "shine",
+            "text": "make it shine",
+            "img": "img/vic.jpg",
+            "color": "lightblue",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "gigi",
+            "name": "Gigi Rock",
+            "bio": "rock",
+            "text": "rock and roll",
+            "img": "img/gigirock.jpg",
+            "color": "#944E63",
+            "pronouns": "she/her"
+        },
+        {
+            "username": "avan",
+            "name": "Avan Jogia",
+            "bio": "hoho",
+            "text": "driving car",
+            "img": "img/avan.jpg",
+            "color": "#40A2E3",
+            "pronouns": "he/they"
+        },
+        {
+            "username": "Beck",
+            "name": "Oliver",
+            "bio": "yes",
+            "text": "ugh im tired",
+            "img": "img/beck.jpg",
+            "color": "#910A67",
+            "pronouns": "he/they"
+        }
+    ],
+    "channels": [
+        {
+            "title": "MUSIC",
+            "channel": [
+                {
+                    "icon": "fa-solid",
+                    "icons": "fa-hashtag",
+                    "name": "matt and avan"
+                },
+                {
+                    "icon": "fa-solid",
+                    "icons": "fa-hashtag",
+                    "name": "liz"
+                }
+            ]
+        },
+        {
+            "title": "COOL",
+            "channel": [
+                {
+                    "icon": "fa-solid",
+                    "icons": "fa-hashtag",
+                    "name": "yuh"
+                },
+                {
+                    "icon": "fa-solid",
+                    "icons": "fa-hashtag",
+                    "name": "ugif8ho"
+                }
+            ]
+        },
+        {
+            "title": "VOICE CHANNEL",
+            "channel": [
+                {
+                    "icon": "fa-solid",
+                    "icons": "fa-volume-high",
+                    "name": "music room"
+                },
+                {
+                    "icon": "fa-solid",
+                    "icons": "fa-volume-high",
+                    "name": "callz"
+                }
+            ]
+        }
+    ],
+    "servers": [
+        {
+            "image": "img/vic.jpg",
+            "information": "Vic's Server"
+        },
+        {
+            "image": "img/avan.jpg",
+            "information": "Avan's Server"
+        },
+        {
+            "image": "img/beck.jpg",
+            "information": "Beck's Server"
+        },
+        {
+            "image": "img/gigirock.jpg",
+            "information": "Gigi's Server"
+        },
+        {
+            "image": "img/westbeck.jpg",
+            "information": "Beck's Server"
+        },
+        {
+            "image": "img/avanmatt.jpg",
+            "information": "Avan and Matt's Room"
+        }
+    ],
+    "members": [
+            {
+                "username": "scissorluv",
+                "name": "Jade West",
+                "bio": "no",
+                "text": "scissors",
+                "img": "img/jade.jpg",
+                "color": "#B784B7",
+                "pronouns": "she/her"
+            },
+            {
+                "username": "scissorluv",
+                "name": "Jade West",
+                "bio": "no",
+                "text": "scissors",
+                "img": "img/jade.jpg",
+                "color": "#B784B7",
+                "pronouns": "she/her"
+            },
+            {
+                "username": "gotbeck",
+                "name": "Beck Oliver",
+                "bio": "cars",
+                "text": "vroom",
+                "img": "img/westbeck.jpg",
+                "color": "#2D9596",
+                "pronouns": "he/they"
+            },
+            {
+                "username": "happycat",
+                "name": "Cat Valentine",
+                "bio": "yay",
+                "text": "yuh",
+                "img": "img/ariliz.jpg",
+                "color": "pink",
+                "pronouns": "she/her"
+            },
+            {
+                "username": "ToriVega",
+                "name": "Tori Vega",
+                "bio": "shine",
+                "text": "make it shine",
+                "img": "img/vic.jpg",
+                "color": "lightblue",
+                "pronouns": "she/her"
+            },
+            {
+                "username": "Beck",
+                "name": "Oliver",
+                "bio": "yes",
+                "text": "ugh im tired",
+                "img": "img/beck.jpg",
+                "color": "#910A67",
+                "pronouns": "he/they"
+            }
+        
+    ]
+}

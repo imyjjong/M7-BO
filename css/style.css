@@ -1,0 +1,334 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 2rem;
+  font-family: "proxima-nova";
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  background: #0d0d0d;
+  width: 1rem;
+  border-radius: 10rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #050505;
+  border-radius: 10rem;
+}
+
+::-webkit-scrollbar-button {
+  background: black;
+}
+
+.clickBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+}
+
+.servers {
+  background: black;
+  border-right: 0.1rem solid #333333;
+  height: 100vh;
+  width: 7.5rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.serversLogo {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a1a1a;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  padding: 2.8rem;
+}
+.serversBorder {
+  border: 0.1rem solid #333333;
+  width: 5rem;
+}
+.serversServer {
+  width: 5.5rem;
+  height: 5.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.serversServer:hover {
+  cursor: pointer;
+}
+.serversServer__focus {
+  width: 5.5rem;
+  height: 5.5rem;
+  object-fit: cover;
+  border-radius: 35%;
+}
+
+.channels {
+  background: black;
+  border-right: 0.1rem solid #333333;
+  list-style: none;
+  width: 25rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.channelsServer {
+  box-shadow: 0 0.1rem 0.1rem 0 white;
+  padding: 1rem;
+}
+.channelsServer__title {
+  font-size: 1.8rem;
+}
+.channelsDropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: #999999;
+}
+.channelsDropdown__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.channelsDropdown__wrapper:hover {
+  cursor: pointer;
+  color: #cccccc;
+}
+.channelsDropdown__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  color: #999999;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-left: 1rem;
+}
+.channelsDropdown__list--item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+}
+.channelsDropdown__list--item:hover {
+  cursor: pointer;
+  background: #0d0d0d;
+}
+.channelsDropdown__list--itemIcon {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.channelsAccount {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  width: 25rem;
+  height: 6rem;
+  padding: 0.4rem 0;
+  box-shadow: 0 -0.05rem 0.03rem 0 white;
+}
+.channelsAccount__image {
+  width: 4.5rem;
+  height: 4.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0.5rem;
+}
+.channelsAccount__wrapper {
+  font-size: 1.4rem;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem 0 0;
+  border-radius: 0.5rem;
+}
+.channelsAccount__wrapper:hover {
+  cursor: pointer;
+  background: #0d0d0d;
+}
+.channelsAccount__icons {
+  font-size: 1.7rem;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+.channelsAccount__icons:hover {
+  cursor: pointer;
+  background: #0d0d0d;
+}
+.channelsAccount__iconsSlash {
+  position: absolute;
+  left: 0;
+  transform: translate(25%, 0);
+}
+
+.chatbox {
+  background: black;
+  width: calc(100vw - 7.5rem - 60rem);
+  height: 91vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 2rem;
+  overflow-y: scroll;
+}
+.chatboxUser {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.6rem;
+  height: 7.5rem;
+}
+.chatboxUser__img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.chatboxUser__chat {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+}
+.chatboxUser__chatWrapper {
+  display: flex;
+  gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chatboxUser__chatWrapper--username {
+  color: lightblue;
+}
+.chatboxUser__chatWrapper--date {
+  color: #595959;
+  font-size: 1.3rem;
+}
+.chatboxSearch__input {
+  position: fixed;
+  bottom: 0;
+  width: 80rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 1.4rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.6rem;
+  background: #0d0d0d;
+  color: white;
+}
+.chatboxSearch__input:focus {
+  outline: none;
+}
+
+.members {
+  background: black;
+  border-right: 0.1rem solid #333333;
+  list-style: none;
+  width: 30rem;
+  height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 4rem 2rem;
+}
+.membersTitle {
+  font-size: 1.4rem;
+}
+.membersMember {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  height: 4rem;
+}
+.membersMember:hover {
+  cursor: pointer;
+}
+.membersMember__img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: double 0.2rem transparent;
+  background-image: linear-gradient(white, white), linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+.membersMember__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.membersMember__wrapper--username {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.membersMember__wrapper--bio {
+  font-size: 1.4rem;
+  color: #4d4d4d;
+}
+
+.accounts {
+  position: absolute;
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.accountsAccount {
+  background: darkred;
+  border-radius: 1rem;
+  height: 40rem;
+}
+.accountsAccount__div {
+  background: grey;
+  height: 10rem;
+  position: relative;
+}
+.accountsAccount__divImage {
+  position: absolute;
+  transform: translate(30%, 40%);
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

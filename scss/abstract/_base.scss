@@ -1,0 +1,40 @@
+@use "variables.scss";
+
+body{
+    min-height: 100vh;
+    font-size: 2rem;
+    font-family: map-get(variables.$mainVars, "font");
+    background: map-get(variables.$mainVars, "background");
+    color: map-get(variables.$mainVars, "color");
+    display: flex;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+}
+
+::-webkit-scrollbar{
+    background: lighten(map-get(variables.$mainVars, "background"), 5%);
+    width: 1rem;
+    border-radius: 10rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background: lighten(map-get(variables.$mainVars, "background"), 2%);
+    border-radius: 10rem;
+}
+
+::-webkit-scrollbar-button{
+    background: black;
+}
+
+.clickBackground{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: red;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+}

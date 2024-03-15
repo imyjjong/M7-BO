@@ -1,0 +1,56 @@
+@use "../../abstract/variables.scss";
+
+.members{
+    background: map-get(variables.$chatboxVars, "background");
+    border-right: 0.1rem solid darken(map-get(variables.$mainVars, "color"), 80%);
+    list-style: none;
+    width: 30rem;
+    height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 2rem;
+
+    &Title{
+        font-size: 1.4rem;
+    }
+
+    &Member{
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        height: 4rem;
+        
+        &:hover{
+            cursor: pointer;
+        }
+
+        &__img{
+            width: 4rem;
+            height: 4rem;
+            object-fit: cover;
+            border-radius: 50%;
+            border: double 0.2rem transparent;
+            background-image: linear-gradient(white, white), map-get(variables.$colorVars, "gradient");
+            background-origin: border-box;
+            background-clip: padding-box, border-box;
+        }
+
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            &--username{
+                font-size: 1.6rem;
+                font-weight: 400;
+            }
+
+            &--bio{
+                font-size: 1.4rem;
+                color: darken(map-get(variables.$mainVars, "color"), 70%);
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+@use "../../abstract/variables.scss";
+
+.chatbox{
+    background: map-get(variables.$chatboxVars, "background");
+    width: calc(100vw - 7.5rem - 60rem);
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 2rem;
+    overflow-y: scroll;
+
+    &User{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 1rem;
+        font-size: 1.6rem;
+        height: 7.5rem;
+
+        &__img{
+            width: 5rem;
+            height: 5rem;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        &__chat{
+            display: flex;
+            flex-direction: column;
+            font-weight: 400;
+
+            &Wrapper{
+                display: flex;
+                gap: 0.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &--username{
+                    color: lightblue;
+                }
+
+                &--date{ 
+                    color: darken(map-get(variables.$mainVars, "color"), 65%);
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+
+    &Search__input{
+        position: fixed;
+        bottom: 0;
+        width: 80rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        padding: 1.4rem 1rem;
+        border-radius: 1rem;
+        border: none;
+        font-size: 1.6rem;
+        background: lighten(map-get(variables.$mainVars, "background"), 5%);
+        color: map-get(variables.$mainVars, "color");
+
+        &:focus{
+            outline: none;
+        }
+
+    }
+}
