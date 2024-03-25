@@ -1,0 +1,118 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 2rem;
+  background: #111417;
+  color: white;
+  font-family: sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 8rem 20rem;
+}
+
+.calendar {
+  background: #060708;
+  width: 60rem;
+  height: 100%;
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  box-shadow: 0rem 0 0.7rem 0.1rem #101b28;
+}
+.calendarHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: 5rem;
+}
+.calendarHeader__buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+}
+.calendarHeader__buttons--date {
+  font-size: 2.5rem;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calendarHeader__buttons--button {
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: white;
+}
+.calendarHeader__buttons--button:hover {
+  cursor: pointer;
+  color: #1f344c;
+}
+.calendarWeek {
+  list-style: none;
+  display: flex;
+  height: 4rem;
+  width: 100%;
+}
+.calendarWeek__weekDay {
+  width: 14.2857142857%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.4rem solid #101b28;
+  margin: 0.1rem 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.calendarDays {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 45rem;
+  margin-top: 1rem;
+}
+.calendarDays__day {
+  width: calc(14.2857142857% - 2rem);
+  height: 6.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0.3rem 1rem;
+  padding: 1rem;
+  border-radius: 1%;
+}
+.calendarDays__day:hover {
+  background: #070c12;
+  border-radius: 50%;
+}
+.calendarDays__day--lastMonth {
+  color: #272e34;
+}
+.calendarDays__day--active {
+  color: #2d4c71;
+  font-weight: 600;
+  border-radius: 50%;
+  background: #101b28;
+}
+
+/*# sourceMappingURL=style.css.map */
