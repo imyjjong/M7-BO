@@ -40,7 +40,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  height: 5rem;
+  height: 4.5rem;
 }
 .calendarHeader__buttons {
   display: flex;
