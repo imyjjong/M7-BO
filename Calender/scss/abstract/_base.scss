@@ -1,7 +1,7 @@
 @use "variables.scss";
 
 body{
-    min-height: 100vh;
+        -height: 100vh;
     font-size: 2rem;
     background: map-get(variables.$baseVars, "background");
     color: map-get(variables.$baseVars, "color");

@@ -46,21 +46,25 @@
     }
 
     &Week{
-        list-style: none;
-        display: flex;
-        height: 4rem;
-        width: 100%;
-        
-        &__weekDay{
-            width: calc(100% / 7);
+
+        &__list{
+            list-style: none;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            border-bottom: 0.4rem solid map-get(variables.$baseVars, "accentBackground");
-            margin: 0.1rem 1rem;
-            font-size: 1.6rem;
-            font-weight: 600;
+            height: 4rem;
+            width: 100%;
+
+            &--weekDay{
+                width: calc(100% / 7);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-bottom: 0.4rem solid map-get(variables.$baseVars, "accentBackground");
+                margin: 0.1rem 1rem;
+                font-size: 1.6rem;
+                font-weight: 600;
+            }
         }
+        
     }
     &Days{
         list-style: none;
@@ -83,6 +87,7 @@
             border-radius: 1%;
 
             &:hover{
+                cursor: pointer;
                 background: darken(map-get(variables.$baseVars, "accentBackground"), 6%);
                 border-radius: 50%;
             }

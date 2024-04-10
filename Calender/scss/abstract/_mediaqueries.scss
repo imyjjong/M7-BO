@@ -1,0 +1,16 @@
+@media screen and (max-width: 47.5rem){
+    .calendar{
+        width: 40rem;
+
+        &Week{
+            display: none;
+        }
+        &Days{
+            &__day{
+                border-radius: 0;
+                background: none;
+            }
+        }
+    }
+    
+}

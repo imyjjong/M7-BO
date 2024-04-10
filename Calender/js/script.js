@@ -28,16 +28,18 @@ class CreateCalendar{
         this.rightArrow = document.createElement("i");
         this.rightArrow.classList = "fa-solid fa-angle-right";
 
-        this.week = document.createElement("ul");
+        this.week = document.createElement("nav");
         this.week.classList.add("calendarWeek");
+
+        this.weekList = document.createElement("ul");
+        this.weekList.classList.add("calendarWeek__list");
 
         for(let i = 0; i < this.weekday.length; i++){
             this.weekDay = document.createElement("li");
-            this.weekDay.classList.add("calendarWeek__weekDay");
+            this.weekDay.classList.add("calendarWeek__list--weekDay");
             this.weekDay.innerText = this.weekday[i];
-            this.week.appendChild(this.weekDay);
+            this.weekList.appendChild(this.weekDay);
         }
-        
 
         this.render();
     }
@@ -52,6 +54,7 @@ class CreateCalendar{
         this.buttons.appendChild(this.rightButton);
         this.rightButton.appendChild(this.rightArrow);
         this.calendar.appendChild(this.week);
+        this.week.appendChild(this.weekList);
     }
 }
 
@@ -74,13 +77,11 @@ class Calendar{
         this.fillCalendar();
         this.clicked();
     }
-    addDates = () => {
-        
+    addDates(){
         this.firstDayOfMonth = new Date(this.currentYear, this.currentMonth, 0).getDay();
-        this.lastDateOfMonth = new Date(this.currentYear, this.currentMonth + 1, 0).getDate(); //dit is om te weten hoeveel dagen in de maand zitten
+        this.lastDateOfMonth = new Date(this.currentYear, this.currentMonth + 1, 0).getDate();
         this.lastDayOfMonth = new Date(this.currentYear, this.currentMonth, this.lastDateOfMonth).getDay();
         this.lastDateOfLastMonth = new Date(this.currentYear, this.currentMonth, 0).getDate();
-
 
         for(let i = this.firstDayOfMonth; i > 0; i--){
             this.day = document.createElement("li");
@@ -90,16 +91,16 @@ class Calendar{
             this.currentDate.appendChild(this.day);
         };
 
-        for(let i = 1; i <= this.lastDateOfMonth; i++){ //for loop is zo anders omdat anders er vanaf 0 wordt begonnen en niet de juiste dagen te zien zijn
-            this.today = i === this.date.getDate() && this.currentMonth === new Date().getMonth() && this.currentYear === new Date().getFullYear() ? "calendarDays__day--active" : "class";
-            this.d = document.createElement("li");
-            this.d.classList.add("calendarDays__day");
-            this.d.classList.add(this.today);
-            this.d.innerText = i;
-            this.currentDate.appendChild(this.d);
+        for(let i = 1; i <= this.lastDateOfMonth; i++){
+            this.today = i === this.date.getDate() && this.currentMonth === new Date().getMonth() && this.currentYear === new Date().getFullYear() ? "calendarDays__day--active" : "day";
+            this.listDay = document.createElement("li");
+            this.listDay.classList.add("calendarDays__day");
+            this.listDay.classList.add(this.today);
+            this.listDay.innerText = i;
+            this.currentDate.appendChild(this.listDay);
         };
     }
-    fillCalendar = () => {
+    fillCalendar(){
         this.headerDate = document.querySelector(".calendarHeader__buttons--date");
         this.headerDate.innerText = this.months[this.currentMonth] + " " + this.currentYear;
     }
@@ -117,7 +118,6 @@ class Calendar{
             }
             else{
                 this.date = new Date();
-                console.log(this.d);
             }
             this.addDates();
         }
@@ -148,4 +148,4 @@ class App{
     }
 }
 
-let p = new App();
+let calendar = new App();
